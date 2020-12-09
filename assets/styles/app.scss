@@ -1,0 +1,41 @@
+@import "~bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Righteous&display=swap');
+
+// customize some Bootstrap variables
+// the ~ allows you to reference things in node_modules
+
+//color
+$primary: #212121;
+$secondary: #673ab7;
+$tertiary: #9c27b0;
+$quaternary: #428bca;
+
+//fonts
+$title: Righteous;
+$text: Lora;
+$theme-colors: (
+  "primary": #673ab7,
+  "danger": #212121
+);
+
+body{
+
+background-color: $primary;
+
+}
+
+h1{
+
+color: $secondary;
+font: $title;
+
+}
+
+.navbar-light .navbar-nav .nav-link{
+
+background-color: $secondary;
+color: white;
+font-family: $title;
+
+}
+
