@@ -9,6 +9,7 @@ $primary: #212121;
 $secondary: #673ab7;
 $tertiary: #9c27b0;
 $quaternary: #428bca;
+$paragraph: white;
 
 //fonts
 $title: Righteous;
@@ -28,6 +29,20 @@ h1{
 
 color: $secondary;
 font: $title;
+
+}
+
+h2{
+
+color: $paragraph;
+font: $text;
+
+}
+
+p{
+
+  color: $paragraph;
+  font: $text;
 
 }
 
