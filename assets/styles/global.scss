@@ -5,8 +5,9 @@
 //color
 $primary: #212121;
 $secondary: #673ab7;
-$tertiary: #9c27b0;
+$tertiary: #ff45d7  ;
 $quaternary: #428bca;
+$paragraph: white;
 
 //fonts
 $title: Righteous;
@@ -16,3 +17,81 @@ $theme-colors: (
   "danger": #212121
 );
 
+body{
+
+  background-color: $primary;
+  
+  }
+  
+  h1{
+  
+  color: $secondary;
+  font: $title;
+  
+  }
+  
+  h2{
+  
+  color: $paragraph;
+  font: $text;
+  
+  }
+  
+  p{
+  
+    color: $paragraph;
+    font: $text;
+  
+  }
+  
+  h3{
+  
+    color: $tertiary;
+    font: $text;
+  
+  }
+  
+  h4{
+  
+    color: $tertiary;
+    font: $text;
+  
+  }
+  
+  .navbar-light .navbar-nav .nav-link{
+  
+  background-color: $secondary;
+  color: white;
+  font-family: $title;
+  
+  }
+  
+  a:link {
+    color: $tertiary;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: $tertiary;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: $quaternary;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: $quaternary;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  label{
+
+    color: $tertiary;
+
+}

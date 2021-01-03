@@ -7,7 +7,7 @@
 //color
 $primary: #212121;
 $secondary: #673ab7;
-$tertiary: #9c27b0;
+$tertiary: #ff45d7;
 $quaternary: #428bca;
 $paragraph: white;
 
@@ -68,3 +68,32 @@ font-family: $title;
 
 }
 
+a:link {
+  color: $tertiary;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: $tertiary;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $quaternary;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: $quaternary;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+label{
+
+    color: $tertiary;
+
+}
