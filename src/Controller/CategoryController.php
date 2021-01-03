@@ -40,7 +40,7 @@ class CategoryController extends AbstractController
             // Flush the persisted object
             $entityManager->flush();
             // Finally redirect to categories list
-            return $this->redirectToRoute('category_');
+            return $this->redirectToRoute('category_index');
         }
         // Render the form
         return $this->render('category/new.html.twig', ["form" => $form->createView()]);
