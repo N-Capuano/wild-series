@@ -6,13 +6,9 @@
 <div class="media">
   <div class="media-body">
     <h1 class="mt-0">{{ actor.name }}</h1>
-        {% for program in programs %}
-        <div>
-            <a href="{{ path("program_show", { 'program': program.id }) }}">{{ program.title }}</a>
-        </div>
-    {% else %}
-        Aucun acteur trouvé.
-    {% endfor %}
+       {% for program in actor.programs %}
+          <li> <a href="{{ path("program_show", { id: program.id }) }}">{{ program.title }} </li>
+       {% endfor %}
   </div>
 </div>
 
